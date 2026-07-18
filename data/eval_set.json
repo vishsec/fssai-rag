@@ -1,0 +1,22 @@
+[
+  {"question": "What is the maximum permissible limit of lead in olive oil?", "expected_keywords": ["lead", "0.1", "pb"]},
+  {"question": "What is the maximum permissible limit of arsenic in olive oil?", "expected_keywords": ["arsenic", "0.1"]},
+  {"question": "How much alpha-tocopherol can be added to refined olive oil?", "expected_keywords": ["tocopherol", "200"]},
+  {"question": "What is the maximum lead content permitted in beeswax?", "expected_keywords": ["lead", "beeswax", "2.0"]},
+  {"question": "What is the melting point range specified for beeswax?", "expected_keywords": ["melting point", "62", "65"]},
+  {"question": "What is the maximum moisture content permitted in honey?", "expected_keywords": ["honey", "moisture", "20"]},
+  {"question": "What is the maximum limit for hydroxymethylfurfural (HMF) in honey?", "expected_keywords": ["hmf", "hydroxymethylfurfural", "80"]},
+  {"question": "What is the maximum sucrose content allowed in honey?", "expected_keywords": ["sucrose", "honey", "5.0"]},
+  {"question": "How much arsenic and lead is permitted in aspartame?", "expected_keywords": ["aspartame", "arsenic", "lead"]},
+  {"question": "What is the maximum fluoride content permitted in Acesulfame Potassium?", "expected_keywords": ["acesulfame", "fluoride", "3 ppm"]},
+  {"question": "What is the maximum heavy metals content permitted in Sucralose?", "expected_keywords": ["sucralose", "heavy metals", "10"]},
+  {"question": "What is the minimum sucrose content required in refined sugar?", "expected_keywords": ["refined sugar", "sucrose", "99.5"]},
+  {"question": "What is the minimum sucrose content required in plantation white sugar?", "expected_keywords": ["plantation white sugar", "sucrose", "98"]},
+  {"question": "What is the maximum uric acid limit in Maida (refined wheat flour)?", "expected_keywords": ["maida", "uric acid", "100"]},
+  {"question": "What is the maximum permissible level of Deoxynivalenol (DON) in wheat?", "expected_keywords": ["deoxynivalenol", "don", "1000"]},
+  {"question": "What is the minimum gluten content required in Atta?", "expected_keywords": ["atta", "gluten", "6.0"]},
+  {"question": "What is the minimum protein content required in Besan?", "expected_keywords": ["besan", "protein", "20"]},
+  {"question": "What is the maximum toluene sulfonamides limit in Sodium Saccharin?", "expected_keywords": ["saccharin", "toluene sulfonamides", "25"]},
+  {"question": "What is the minimum sucrose content required in Cane Jaggery?", "expected_keywords": ["jaggery", "sucrose", "70"]},
+  {"question": "What is the minimum Vitamin C content required in infant milk food?", "expected_keywords": ["vitamin c", "infant", "35"]}
+]
