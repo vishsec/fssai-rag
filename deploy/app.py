@@ -45,8 +45,14 @@ def hybrid_search(query, index, chunks, bm25, embedder, k=TOP_K):
     top_local = np.argsort(-combined)[:k]
     return [chunks[i] for i in vec_ids[top_local]]
 
+def get_gemini_key():
+    try:
+        return st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        return os.environ["GEMINI_API_KEY"]
+    
 def generate_answer(question, results):
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    client = genai.Client(api_key=get_gemini_key())
     context = "\n\n".join(f"[Source: {r['doc']}, page {r['page']}]\n{r['text']}" for r in results)
     prompt = f"""Answer the question using ONLY the context below. If the context doesn't contain the answer, say so.
 
